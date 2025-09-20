@@ -41,7 +41,7 @@ const menuKategories = [
 
 const menuItems = [
   { 
-    name: "Klasik Hamburger", 
+    name: "Cem Abi", 
     price: "₺120", 
     kategory: "yiyecekler", 
     image: "images/yemek.png",
@@ -64,7 +64,7 @@ const menuItems = [
   { 
     name: "Türk Çayı", 
     price: "₺20", 
-    kategory: "sıcaklar", 
+    kategory: "sıcaklar",
     image: "images/yemek.png",
     description: "Geleneksel Türk çayı, demli ve aromalı"
   },
