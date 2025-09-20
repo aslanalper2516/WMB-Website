@@ -4,8 +4,8 @@ const path = require("path");
 const app = express();
 const PORT = 3002;
 
-// Public klasörünü statik dosya olarak aç
-app.use(express.static(path.join(__dirname, "public")));
+// Statik dosyaları servis et (images, js, css klasörleri)
+app.use(express.static(path.join(__dirname)));
 
 // Ana sayfa
 app.get("/", (req, res) => {
